@@ -1,0 +1,43 @@
+/* max width 576px start here */
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 0 30px;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    header nav ul .nav-item {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+}
+
+/* min-width: 577.01px; and max-width:992px; */
+@media screen and (min-width: 577.01px) and (max-width: 992px) {
+
+    header {
+        padding: 0 30px;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    header nav .nav-item a {
+        margin-left: 0px;
+    }
+}
+
+/* min-width:993.01px; and max-width:1440px */
+@media screen and (min-width: 993.01px) and (max-width: 1440px) {
+    header {
+        padding: 0 50px;
+    }
+}
