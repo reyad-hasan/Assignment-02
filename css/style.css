@@ -183,12 +183,12 @@ header nav ul .active {
 .five-plus-box {
     width: 193px;
     height: 98px;
-    right: 270px;
-    top: 300px;
-    border-radius: 12px;
-    border: 1px solid var(--description-color);
-    background: rgba(255, 255, 255, 0.1);
     position: absolute;
+    right: 14%;
+    top: 32%;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     backdrop-filter: blur(10px);
 }
@@ -209,11 +209,11 @@ header nav ul .active {
 }
 
 .three-plus-box {
-    position: absolute;
     width: 206px;
     height: 94px;
-    right: 650px;
-    top: 700px;
+    position: absolute;
+    right: 33%;
+    top: 75%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(5px);
