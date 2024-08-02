@@ -1,7 +1,6 @@
 /* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (max-width: 576px) {
-    html {
-        padding: 0 1rem;
+    body {
         font-size: 90%;
     }
 
@@ -15,6 +14,12 @@
         width: 80%;
         background-color: gray;
         transition: .5s ease-out;
+    }
+
+    header {
+        height: 135vh;
+        background: var(--header-bg);
+        padding: 0 1.5rem;
     }
 
     nav .link {
@@ -46,15 +51,18 @@
         z-index: 9;
     }
 
-    .hero-section {
+    /* hero section .......................................llllllllllllllllllllllllllllllllll */
+
+    .hero-container {
         flex-direction: column;
     }
 
     .left-container {
         width: 100%;
+        height: 50vh;
     }
 
-    .hero-title{
+    .hero-title {
         font-size: 3rem;
         max-width: 320px;
     }
@@ -65,13 +73,46 @@
 
     .right-container {
         width: 100%;
+        height: 80vh;
     }
+
+    .right-container .img-box img {
+        width: 300px;
+        right: auto;
+    }
+
+    .five-box-2 {
+        top: 30rem;
+        right: 20rem;
+    }
+
+
+    .five-box-1 h3 {
+        font-size: 1.8rem;
+    }
+
+    .five-box-1 p {
+        font-size: .75rem;
+    }
+
+    .three {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .threeDes {
+        font-size: .75rem;
+        line-height: 1.5rem;
+    }
+
 }
 
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 577px) and (max-width: 767px) {
-    html {
-        padding: 0 3rem;
+
+    header {
+        height: 155vh;
+        padding: 0 2rem;
     }
 
     .links-container {
@@ -114,26 +155,117 @@
         left: 0;
         z-index: 9;
     }
+
+    .hero-container {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .left-container {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        max-width: 320px;
+    }
+
+    .right-container {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .five-box-2 {
+        top: 27rem;
+        right: 20rem;
+    }
+
+    .img-box {
+        margin-top: 4.35rem;
+    }
+
+    .right-container .img-box img {
+        width: 350px;
+        right: auto;
+    }
+
 }
 
 /* min-width:768px and max-width:992px....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    html {
-        padding: 0 2rem;
+
+    header {
+        padding: 0 3rem;
+        height: 158.5vh;
     }
 
     header nav {
         font-size: 90%;
     }
+
+    .hero-container {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .left-container {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        max-width: 320px;
+    }
+
+    .right-container {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .five-box-2 {
+        top: 27rem;
+        right: 30rem;
+        height: 16%;
+        width: 22%;
+    }
+
+    .img-box {
+        margin-top: 4.35rem;
+    }
+
+    .right-container .img-box img {
+        width: 350px;
+        right: auto;
+    }
+
+
 }
 
 /* min-width:992px and max-width:1200px */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    html {
-        padding: 0 6rem;
+
+    header {
+        padding: 0 3rem;
     }
 
     header nav {
         font-size: 100%;
     }
+
+    .five-box-1 {
+        top: 12rem;
+    }
+
+    .five-box-2 {
+        right: 15rem;
+        width: 38%;
+    }
+
+    .right-container .img-box img {
+        width: 450px;
+        right: auto;
+    }
+
 }
