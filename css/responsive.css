@@ -1,141 +1,118 @@
-/* max width 576px start here */
-
+/* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (max-width: 576px) {
+    html {
+        padding: 0 1rem;
+        font-size: 90%;
+    }
 
-    header {
-        padding: 0 30px;
+    .links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 80%;
+        background-color: gray;
+        transition: .5s ease-out;
+    }
+
+    nav .link {
         height: auto;
+        width: 100%;
+        padding: 1.25rem 2rem;
+        border-radius: 0;
     }
 
-    .logo {
-        font-size: 2.5rem;
-    }
-
-    header nav ul .nav-item {
-        display: none;
-    }
-
-    .hidden {
+    .open-sidebar-btn,
+    .close-sidebar-btn {
         display: block;
     }
 
-    /* hero section style ........llllllllllllllllllllllllllllllllllllll */
-    .hero-section {
-        flex-direction: column;
-        padding-top: 80px;
+    .close-sidebar-btn {
+        padding: 2rem;
     }
 
-    .hero-left-part,
-    .hero-right-part {
+    #sidebar-active:checked~.links-container {
+        right: 0;
+    }
+
+    #sidebar-active:checked~#overly {
+        height: 100%;
         width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
     }
-
-    .hero-left-part {
-        margin-bottom: 50px;
-    }
-
-    .hero-title {
-        font-size: 3.8rem;
-    }
-
-    .btn-box {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .hero-right-box img {
-        padding-left: 0;
-    }
-
-    .five-plus-box {
-        top: 97%;
-        right: 10%;
-    }
-
-    .three-plus-box {
-        left: 10%;
-        top: 145%;
-    }
-
 }
 
-/* min-width: 577.01px; and max-width:992px; */
-@media screen and (min-width: 577.01px) and (max-width: 992px) {
+/* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    html {
+        padding: 0 3rem;
+    }
 
-    header {
-        padding: 0 30px;
+    .links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 80%;
+        background-color: gray;
+        transition: .5s ease-out;
+    }
+
+    nav .link {
         height: auto;
-    }
-
-    .logo {
-        font-size: 2.5rem;
-    }
-
-    header nav .nav-item a {
-        margin-left: 0px;
-    }
-
-    /* hero section style ......llllllllllllllllllllllllllllllllllllll */
-
-    .hero-section {
-        flex-direction: column;
-        padding-top: 80px;
-    }
-
-    .hero-left-part,
-    .hero-right-part {
         width: 100%;
+        padding: 1.25rem 2rem;
+        border-radius: 0;
     }
 
-    .hero-left-part {
-        margin-bottom: 50px;
+    .open-sidebar-btn,
+    .close-sidebar-btn {
+        display: block;
     }
 
-    .hero-title {
-        font-size: 4.8rem;
-        width: 576px;
-    }
-    .hero-left-part p{
-        width: 676px;
+    .close-sidebar-btn {
+        padding: 2rem;
     }
 
-    .btn-box {
-
-        justify-content: flex-start;
+    #sidebar-active:checked~.links-container {
+        right: 0;
     }
 
-    .hero-right-box img {
-        padding-left: 0;
+    #sidebar-active:checked~#overly {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
     }
-
-    .five-plus-box {
-        top: 97%;
-        right: 25%;
-    }
-
-    .three-plus-box {
-        left: 13%;
-        top: 145%;
-    }
-
 }
 
-/* min-width:993.01px; and max-width:1440px */
-@media screen and (min-width: 993.01px) and (max-width: 1440px) {
-    header {
-        padding: 0 50px;
+/* min-width:768px and max-width:992px....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    html {
+        padding: 0 2rem;
     }
 
-    .hero-title {
-        font-size: 6rem;
+    header nav {
+        font-size: 90%;
+    }
+}
+
+/* min-width:992px and max-width:1200px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    html {
+        padding: 0 6rem;
     }
 
-    .five-plus-box {
-        right: 5%;
+    header nav {
+        font-size: 100%;
     }
-
-    .three-plus-box {
-        right: 27%;
-    }
-
 }
