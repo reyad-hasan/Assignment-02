@@ -45,6 +45,27 @@
         left: 0;
         z-index: 9;
     }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .left-container {
+        width: 100%;
+    }
+
+    .hero-title{
+        font-size: 3rem;
+        max-width: 320px;
+    }
+
+    .left-container p {
+        width: fit-content;
+    }
+
+    .right-container {
+        width: 100%;
+    }
 }
 
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
