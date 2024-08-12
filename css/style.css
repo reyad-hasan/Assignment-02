@@ -90,6 +90,10 @@ body {
     border-color: var(--primary-color);
 }
 
+.btn-width {
+    width: 40%;
+}
+
 /* header section style start */
 
 header {
@@ -99,7 +103,6 @@ header {
 
 .header-container {
     height: 100%;
-    /* border: 1px solid green; */
 }
 
 .hambar-box {
@@ -145,6 +148,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 nav .logo {
@@ -191,23 +195,45 @@ nav .link:hover {
 
 /* hero section .....lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 
-.hero-section{
+.hero-section {
     height: calc(100vh - 6rem);
     display: flex;
     gap: 1rem;
     padding-top: 3rem;
-    /* border: 1px solid red; */
 }
 
 /* hero section left */
-.section-left{
+.section-left {
     height: 100%;
     width: 50%;
+    display: flex;
+    align-items: center;
     border: 1px solid green;
 }
 
+.hero-title {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.hero-title span {
+    font-family: miama;
+    font-size: 10rem;
+}
+
+.hero-des {
+    margin: 3rem 0;
+}
+
+.btn-box {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
 /* hero section right */
-.section-right{
+.section-right {
     height: 100%;
     width: 50%;
     border: 1px solid yellow;

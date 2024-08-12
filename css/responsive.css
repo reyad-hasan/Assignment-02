@@ -16,7 +16,7 @@
     }
 
     header {
-        height: 113vh;
+        height: 115vh;
         padding: 0 1.5rem;
     }
 
@@ -59,20 +59,44 @@
     .section-left {
         width: 100%;
         height: 50%;
+        /* border: 1px solisd red; */
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-title span {
+        font-size: 5rem;
+    }
+
+    .hero-des {
+        margin: 1rem 0;
+        font-size: .8rem;
+    }
+
+    .btn-box {
+        gap: .5rem;
+    }
+
+    .btn-width {
+        width: 60%;
+    }
+
+    .primary-btn {
+        font-size: 1rem;
+        padding: 0.5rem;
     }
 
     /* hero section right */
     .section-right {
         width: 100%;
         height: 50%;
+        /* border: 1px solid blue; */
+
     }
 
-
 }
-
-
-
-
 
 /* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 321px) and (max-width: 576px) {
@@ -93,7 +117,7 @@
     }
 
     header {
-        height: 148vh;
+        height: 150vh;
         padding: 0 1.5rem;
     }
 
@@ -136,12 +160,39 @@
     .section-left {
         width: 100%;
         height: 50%;
+        border: 1px solid red;
+    }
+
+    .hero-title {
+        font-size: 380%;
+    }
+
+    .hero-title span {
+        font-size: 6rem;
+    }
+
+    .hero-des {
+        margin: 1rem 0;
+    }
+
+    .btn-box {
+        gap: 1rem;
+    }
+
+    .btn-width {
+        width: 50%;
+    }
+
+    .primary-btn {
+        font-size: 1rem;
+        padding: .5rem;
     }
 
     /* hero section right */
     .section-right {
         width: 100%;
         height: 50%;
+        border: 1px solid blue;
     }
 
 }
@@ -149,8 +200,12 @@
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 577px) and (max-width: 767px) {
     header {
-        height: 148vh;
+        height: 150vh;
         padding: 0 1.5rem;
+    }
+
+    nav .link {
+        padding: .7rem 1rem;
     }
 
     /* hero section............llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -163,12 +218,27 @@
     .section-left {
         width: 100%;
         height: 50%;
+        border: 1px solid red;
     }
+
+    .hero-title {
+        font-size: 4.5rem;
+    }
+
+    .hero-title span {
+        font-size: 10rem;
+    }
+
+    .hero-des {
+        margin: 1rem 0;
+    }
+
 
     /* hero section right */
     .section-right {
         width: 100%;
         height: 50%;
+        border: 1px solid blue;
     }
 }
 
@@ -177,11 +247,42 @@
     header {
         padding: 0 1.5rem;
     }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-title span {
+        font-size: 8rem;
+    }
+
+    .hero-des {
+        margin: 1rem 0;
+    }
+
+    .btn-box {
+        gap: 1rem;
+    }
+
+    .primary-btn {
+        padding: .9rem;
+    }
+    .btn-width {
+        width: 50%;
+    }
 }
 
 /* min-width:992px and max-width:1200px */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     header {
         padding: 0 1.5rem;
+    }
+
+    .hero-title {
+        line-height: 110%;
+    }
+
+    .hero-des {
+        margin: 2rem 0;
     }
 }
