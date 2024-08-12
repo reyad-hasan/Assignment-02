@@ -94,6 +94,19 @@ body {
     width: 40%;
 }
 
+.title-text {
+    font-size: 2.6rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+
+.title-des {
+    font-size: .8rem;
+    text-align: center;
+    margin-top: .4rem;
+}
+
 /* header section style start */
 
 header {
@@ -290,4 +303,38 @@ nav .link:hover {
 
 .thirty-plus-box h3 {
     font-size: 2rem;
+}
+
+/* main section start from here............llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+
+/* change your habits section */
+.change-your-habits {
+    margin: 5rem auto;
+}
+
+.habits-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+}
+
+.habit-box {
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.habit-box h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 1rem;
+}
+
+.habit-img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    border: 2px solid var(--description-color);
+    padding: 1px;
 }
