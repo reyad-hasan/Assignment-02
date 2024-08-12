@@ -1,5 +1,4 @@
-/* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
     body {
         font-size: 90%;
     }
@@ -17,8 +16,7 @@
     }
 
     header {
-        height: 135vh;
-        background: var(--header-bg);
+        height: 113vh;
         padding: 0 1.5rem;
     }
 
@@ -51,68 +49,35 @@
         z-index: 9;
     }
 
-    /* hero section .......................................llllllllllllllllllllllllllllllllll */
-
-    .hero-container {
+    /* hero section............llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+    .hero-section {
         flex-direction: column;
+        height: 100vh;
     }
 
-    .left-container {
+    /* hero section left */
+    .section-left {
         width: 100%;
-        height: 50vh;
+        height: 50%;
     }
 
-    .hero-title {
-        font-size: 3rem;
-        max-width: 320px;
-    }
-
-    .left-container p {
-        width: fit-content;
-    }
-
-    .right-container {
+    /* hero section right */
+    .section-right {
         width: 100%;
-        height: 80vh;
+        height: 50%;
     }
 
-    .right-container .img-box img {
-        width: 300px;
-        right: auto;
-    }
-
-    .five-box-2 {
-        top: 30rem;
-        right: 20rem;
-    }
-
-
-    .five-box-1 h3 {
-        font-size: 1.8rem;
-    }
-
-    .five-box-1 p {
-        font-size: .75rem;
-    }
-
-    .three {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
-
-    .threeDes {
-        font-size: .75rem;
-        line-height: 1.5rem;
-    }
 
 }
 
-/* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
-@media screen and (min-width: 577px) and (max-width: 767px) {
 
-    header {
-        height: 155vh;
-        padding: 0 2rem;
+
+
+
+/* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    body {
+        font-size: 90%;
     }
 
     .links-container {
@@ -125,6 +90,11 @@
         width: 80%;
         background-color: gray;
         transition: .5s ease-out;
+    }
+
+    header {
+        height: 148vh;
+        padding: 0 1.5rem;
     }
 
     nav .link {
@@ -156,116 +126,62 @@
         z-index: 9;
     }
 
-    .hero-container {
+    /* hero section............llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+    .hero-section {
         flex-direction: column;
-        padding-top: 20px;
+        height: 135vh;
     }
 
-    .left-container {
+    /* hero section left */
+    .section-left {
         width: 100%;
-        height: 50vh;
+        height: 50%;
     }
 
-    .hero-title {
-        font-size: 3rem;
-        max-width: 320px;
-    }
-
-    .right-container {
+    /* hero section right */
+    .section-right {
         width: 100%;
-        height: 80vh;
+        height: 50%;
     }
 
-    .five-box-2 {
-        top: 27rem;
-        right: 20rem;
+}
+
+/* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    header {
+        height: 148vh;
+        padding: 0 1.5rem;
     }
 
-    .img-box {
-        margin-top: 4.35rem;
+    /* hero section............llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+    .hero-section {
+        flex-direction: column;
+        height: 135vh;
     }
 
-    .right-container .img-box img {
-        width: 350px;
-        right: auto;
+    /* hero section left */
+    .section-left {
+        width: 100%;
+        height: 50%;
     }
 
+    /* hero section right */
+    .section-right {
+        width: 100%;
+        height: 50%;
+    }
 }
 
 /* min-width:768px and max-width:992px....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
     header {
-        padding: 0 3rem;
-        height: 158.5vh;
+        padding: 0 1.5rem;
     }
-
-    header nav {
-        font-size: 90%;
-    }
-
-    .hero-container {
-        flex-direction: column;
-        padding-top: 50px;
-    }
-
-    .left-container {
-        width: 100%;
-        height: 50vh;
-    }
-
-    .hero-title {
-        font-size: 3rem;
-        max-width: 320px;
-    }
-
-    .right-container {
-        width: 100%;
-        height: 80vh;
-    }
-
-    .five-box-2 {
-        top: 27rem;
-        right: 30rem;
-        height: 16%;
-        width: 22%;
-    }
-
-    .img-box {
-        margin-top: 4.35rem;
-    }
-
-    .right-container .img-box img {
-        width: 350px;
-        right: auto;
-    }
-
-
 }
 
 /* min-width:992px and max-width:1200px */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
     header {
-        padding: 0 3rem;
+        padding: 0 1.5rem;
     }
-
-    header nav {
-        font-size: 100%;
-    }
-
-    .five-box-1 {
-        top: 12rem;
-    }
-
-    .five-box-2 {
-        right: 15rem;
-        width: 38%;
-    }
-
-    .right-container .img-box img {
-        width: 450px;
-        right: auto;
-    }
-
 }
