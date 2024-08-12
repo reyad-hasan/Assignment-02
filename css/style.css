@@ -236,5 +236,60 @@ nav .link:hover {
 .section-right {
     height: 100%;
     width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: right;
     border: 1px solid yellow;
+    position: relative;
+}
+
+.hero-image {
+    height: 48rem;
+    width: 100%;
+    /* width: 28.5rem; */
+    border: 1px solid red;
+}
+
+.fifty-plus-box {
+    width: 10.5rem;
+    height: 5.5rem;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem .5rem;
+}
+
+.fifty-plus-box h3{
+    font-size: 2rem;
+}
+
+.thirty-plus-box {
+    width: 10.5rem;
+    height: 5.5rem;
+    position: absolute;
+    top: 75%;
+    right: 60%;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem .8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.circle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.thirty-plus-box h3{
+    font-size: 2rem;
 }
