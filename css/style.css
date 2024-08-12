@@ -407,3 +407,54 @@ nav .link:hover {
 .run-an-extra:hover .bg-box {
     transform: scale(2.6);
 }
+
+/* Trainings and Exercises */
+
+.training-des {
+    width: 60%;
+}
+
+.photo-grid-container {
+    width: 100%;
+    height: 55vh;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-photo-1,
+.grid-photo-2,
+.grid-photo-3,
+.grid-photo-4,
+.grid-photo-5,
+.grid-photo-6 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-photo-1 {
+    background-image: linear-gradient(#06FFD280, #06FFD280), url(../images/exercise1.jpg);
+}
+
+.grid-photo-2 {
+    grid-column: span 2;
+    background-image: linear-gradient(#FF00004D, #FF00004D), url(../images/exercise2.png);
+}
+
+.grid-photo-3 {
+    background-image: linear-gradient(#00000080, #00000080), url(../images/exercise3.png);
+}
+
+.grid-photo-4 {
+    grid-column: span 2;
+    background-image: linear-gradient(#00000080, #00000080), url(../images/exercise4.png);
+}
+
+.grid-photo-5 {
+    background-image: linear-gradient(#42FF004D, #42FF004D), url(../images/exercise5.jpg);
+}
+
+.grid-photo-6 {
+    background-image: linear-gradient(#0047FF4D, #0047FF4D), url(../images/exercise6.jpg);
+}

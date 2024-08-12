@@ -169,6 +169,16 @@
         height: 40%;
     }
 
+    /* Trainings and Exercises */
+
+    .photo-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-photo-2 {
+        display: none;
+    }
+
 }
 
 /* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -341,6 +351,26 @@
         height: 50%;
     }
 
+    /* Trainings and Exercises */
+
+    .photo-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        height: 90vh;
+    }
+
+    .grid-photo-2 {
+        grid-column: span 1;
+    }
+
+    .grid-photo-3,
+    .grid-photo-5 {
+        grid-column: span 2;
+    }
+
+    .grid-photo-6 {
+        display: none;
+    }
+
 }
 
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -456,6 +486,27 @@
         height: 60%;
     }
 
+    /* Trainings and Exercises */
+
+    .photo-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        height: 90vh;
+    }
+
+    .grid-photo-2 {
+        grid-column: span 1;
+    }
+
+    .grid-photo-3 {
+        grid-column: span 2;
+    }
+
+    .grid-photo-4 {
+        display: none;
+    }
+
+
+
 }
 
 /* min-width:768px and max-width:992px....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -550,6 +601,12 @@
     .run-btn {
         padding: .8rem 2rem;
         width: 60%;
+    }
+
+    /* Trainings and Exercises */
+
+    .photo-grid-container {
+        height: 55vh;
     }
 }
 
