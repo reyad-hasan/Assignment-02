@@ -16,7 +16,7 @@
     }
 
     header {
-        height: 115vh;
+        height: 112.3vh;
         padding: 0 1.5rem;
     }
 
@@ -104,10 +104,31 @@
         zoom: 55%;
     }
 
-    .habits-container{
+    /* change your habits section */
+
+    .title-text {
+        font-size: 1.5rem;
+    }
+
+    .title-des {
+        width: 100%;
+    }
+
+
+    .change-your-habits {
+        padding: 0 1.5rem;
+        margin: 3rem auto;
+    }
+
+    .habits-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .habit-box {
+        margin-top: 1rem;
     }
 
 }
@@ -131,7 +152,7 @@
     }
 
     header {
-        height: 150vh;
+        height: 147.3vh;
         padding: 0 1.5rem;
     }
 
@@ -217,12 +238,38 @@
         zoom: 70%;
     }
 
+    /* change your habits section */
+
+    .title-text {
+        font-size: 2.5rem;
+    }
+
+    .title-des {
+        width: 80%;
+    }
+
+
+    .change-your-habits {
+        padding: 0 1.5rem;
+        margin: 3rem auto;
+    }
+
+    .habits-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .habit-box {
+        margin-top: 1rem;
+    }
+
 }
 
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 577px) and (max-width: 767px) {
     header {
-        height: 150vh;
+        height: 147.2vh;
         padding: 0 1.5rem;
     }
 
@@ -270,12 +317,34 @@
     .thirty-plus-box {
         zoom: 90%;
     }
+
+    /* change your habits section */
+    .change-your-habits {
+        padding: 0 1.5rem;
+        margin: 3rem auto;
+    }
+
+    .habits-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .habit-box {
+        margin-top: 1rem;
+    }
+
+    .habits-des {
+        width: 85%;
+        margin: 0 auto;
+    }
 }
 
 /* min-width:768px and max-width:992px....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     header {
         padding: 0 1.5rem;
+        height: 94.2vh;
     }
 
     .hero-title {
@@ -321,6 +390,27 @@
         top: 68%;
         right: 55%;
     }
+
+    /* change your habits section */
+    .change-your-habits {
+        padding: 0 1.5rem;
+        margin: 3rem auto;
+    }
+
+    .habits-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin-top: 1rem;
+    }
+
+    .habit-box {
+        margin-top: 1rem;
+    }
+
+    .habits-des {
+        width: 75%;
+        margin: 0 auto;
+    }
 }
 
 /* min-width:992px and max-width:1200px */
@@ -349,5 +439,10 @@
     .thirty-plus-box {
         top: 68%;
         right: 55%;
+    }
+
+    /* change your habits section */
+    .change-your-habits {
+        padding: 0 1.5rem;
     }
 }

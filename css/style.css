@@ -103,15 +103,16 @@ body {
 
 .title-des {
     font-size: .8rem;
+    width: 70%;
     text-align: center;
-    margin-top: .4rem;
+    margin: .4rem auto 0 auto;
 }
 
 /* header section style start */
 
 header {
     background: var(--header-bg);
-    height: 100vh;
+    height: 99.7vh;
 }
 
 .header-container {
@@ -319,7 +320,7 @@ nav .link:hover {
 }
 
 .habit-box {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     margin-top: 3rem;
 }
@@ -329,6 +330,10 @@ nav .link:hover {
     font-weight: 600;
     line-height: 120%;
     margin-top: 1rem;
+}
+
+.habit-box p {
+    margin-top: .4rem;
 }
 
 .habit-img {
