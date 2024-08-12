@@ -3,6 +3,10 @@
         font-size: 90%;
     }
 
+    main {
+        padding: 0 1.5rem;
+    }
+
     .links-container {
         flex-direction: column;
         align-items: flex-start;
@@ -131,12 +135,50 @@
         margin-top: 1rem;
     }
 
+    /* Run an Extra Mile Easily */
+    .run-an-extra {
+        height: 68vh;
+        flex-direction: column;
+        padding: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .run-left-container,
+    .run-right-container {
+        width: 100%;
+    }
+
+    .run-left-container {
+        height: 60%;
+    }
+
+    .title-left {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .run-des {
+        width: 100%;
+    }
+
+    .run-btn {
+        width: 100%;
+    }
+
+    .run-right-container {
+        height: 40%;
+    }
+
 }
 
 /* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 321px) and (max-width: 576px) {
     body {
         font-size: 90%;
+    }
+
+    main {
+        padding: 0 1.5rem;
     }
 
     .links-container {
@@ -264,12 +306,51 @@
         margin-top: 1rem;
     }
 
+    /* Run an Extra Mile Easily */
+    .run-an-extra {
+        height: 85vh;
+        flex-direction: column;
+        padding: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .run-left-container,
+    .run-right-container {
+        width: 100%;
+    }
+
+    .run-left-container {
+        height: 50%;
+    }
+
+    .title-left {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .run-des {
+        width: 100%;
+    }
+
+    .run-btn {
+        width: 100%;
+        padding: .8rem 4rem;
+    }
+
+    .run-right-container {
+        height: 50%;
+    }
+
 }
 
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
 @media screen and (min-width: 577px) and (max-width: 767px) {
     header {
         height: 147.2vh;
+        padding: 0 1.5rem;
+    }
+
+    main {
         padding: 0 1.5rem;
     }
 
@@ -338,6 +419,43 @@
         width: 85%;
         margin: 0 auto;
     }
+
+    /* Run an Extra Mile Easily */
+    .run-an-extra {
+        height: 95vh;
+        flex-direction: column;
+        padding: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .run-left-container,
+    .run-right-container {
+        width: 100%;
+    }
+
+    .run-left-container {
+        height: 40%;
+    }
+
+    .title-left {
+        font-size: 3.5rem;
+        width: 100%;
+    }
+
+    .run-des {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .run-btn {
+        width: 100%;
+        padding: .8rem 4rem;
+    }
+
+    .run-right-container {
+        height: 60%;
+    }
+
 }
 
 /* min-width:768px and max-width:992px....llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -345,6 +463,10 @@
     header {
         padding: 0 1.5rem;
         height: 94.2vh;
+    }
+
+    main {
+        padding: 0 1.5rem;
     }
 
     .hero-title {
@@ -411,11 +533,33 @@
         width: 75%;
         margin: 0 auto;
     }
+
+    /* Run an Extra Mile Easily */
+
+    .title-left {
+        font-weight: 900;
+        line-height: 120%;
+        width: 100%;
+    }
+
+    .run-des {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .run-btn {
+        padding: .8rem 2rem;
+        width: 60%;
+    }
 }
 
 /* min-width:992px and max-width:1200px */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     header {
+        padding: 0 1.5rem;
+    }
+
+    main {
         padding: 0 1.5rem;
     }
 
@@ -444,5 +588,11 @@
     /* change your habits section */
     .change-your-habits {
         padding: 0 1.5rem;
+    }
+
+    /* Run an Extra Mile Easily */
+
+    .run-btn {
+        padding: .8rem 2rem;
     }
 }
