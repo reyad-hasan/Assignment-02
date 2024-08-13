@@ -422,6 +422,7 @@ nav .link:hover {
     grid-template-columns: repeat(4, 1fr);
 }
 
+
 .grid-photo-1,
 .grid-photo-2,
 .grid-photo-3,
@@ -432,15 +433,6 @@ nav .link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     transition: .3s;
-}
-
-.grid-photo-1:hover,
-.grid-photo-2:hover,
-.grid-photo-3:hover,
-.grid-photo-4:hover,
-.grid-photo-5:hover,
-.grid-photo-6:hover {
-    transform: scale(1.02);
 }
 
 .grid-photo-1 {
