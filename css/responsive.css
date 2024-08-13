@@ -183,7 +183,7 @@
 
     /* calculator */
     .calculator-container {
-        height: 117vh;
+        height: 125vh;
         padding: 0 .8rem;
         border-radius: 1rem;
     }
@@ -241,7 +241,14 @@
         width: 100%;
     }
 
+    .our-team-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
 
+    .our-team-container img {
+        height: 240px;
+    }
 
 }
 
@@ -509,7 +516,15 @@
 
     .calculator-btn {
         width: 100%;
-        padding: .8rem 0;
+        padding: .6rem 0;
+    }
+
+    .our-team-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-team-container img {
+        height: 300px;
     }
 
 }
@@ -728,7 +743,13 @@
         padding: .8rem 0;
     }
 
+    .our-team-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .our-team-container img {
+        height: 260px;
+    }
 
 }
 
@@ -886,6 +907,10 @@
 
     .calculator-btn {
         width: 100%;
+    }
+
+    .our-team-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }

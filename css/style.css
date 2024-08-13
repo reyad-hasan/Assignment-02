@@ -545,11 +545,11 @@ td {
     margin-top: 2.2rem;
 }
 
-.select-box-2{
+.select-box-2 {
     grid-column: span 2;
 }
 
-.input-text{
+.input-text {
     padding: 15px 20px 15px 10px;
     font-size: 1rem;
     font-weight: 500;
@@ -567,8 +567,28 @@ td {
     color: gray;
 }
 
-.calculator-btn{
+.calculator-btn {
     margin-top: 1.5rem;
     width: 40%;
 }
 
+/* our team section */
+.our-team-title-box {
+    margin: 3rem 0;
+}
+
+.our-team-container {
+    background-color: var(--section-bg);
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.our-team-container img {
+    width: 100%;
+    height: 280px;
+    border-radius: 1rem;
+}
