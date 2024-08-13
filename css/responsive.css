@@ -179,6 +179,70 @@
         display: none;
     }
 
+    /* bmi-calculator......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+
+    /* calculator */
+    .calculator-container {
+        height: 117vh;
+        padding: 0 .8rem;
+        border-radius: 1rem;
+    }
+
+    .calculator-box {
+        padding: 2rem 0;
+    }
+
+    .bmi-max-width {
+        padding-left: 0;
+    }
+
+    .bmi-des {
+        width: 100%;
+    }
+
+    .calculator-box {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+
+    /* calculator-box-left */
+    .calculator-box-left {
+        width: 100%;
+    }
+
+    .calculator-box-left table {
+        margin-top: 1rem;
+    }
+
+    .calculator-box-left th {
+        font-size: .9rem;
+    }
+
+    .calculator-box-left th,
+    td {
+        padding: 10px;
+    }
+
+    /* calculator-box-right */
+    .calculator-box-right {
+        width: 100%;
+    }
+
+    .calculator-box-right form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .select-box-2 {
+        grid-column: span 1;
+    }
+
+    .calculator-btn {
+        width: 100%;
+    }
+
+
+
 }
 
 /* max-width: 576px//////llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -371,6 +435,83 @@
         display: none;
     }
 
+
+    /* calculator */
+
+    .bmi-max-width {
+        padding-left: 0;
+    }
+
+
+
+    .bmi-des {
+        width: 100%;
+    }
+
+    .calculator-container {
+        height: 110vh;
+        padding: 0 .8rem;
+        border-radius: 1rem;
+    }
+
+    .calculator-box {
+        padding: 2rem 0;
+    }
+
+    .bmi-max-width {
+        padding-left: 0;
+    }
+
+    .bmi-title {
+        font-size: 1.2rem;
+    }
+
+    .bmi-des {
+        width: 100%;
+    }
+
+    .calculator-box {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+
+    /* calculator-box-left */
+    .calculator-box-left {
+        width: 100%;
+    }
+
+    .calculator-box-left table {
+        margin-top: 1rem;
+    }
+
+    .calculator-box-left th {
+        font-size: .9rem;
+    }
+
+    .calculator-box-left th,
+    td {
+        padding: 10px;
+    }
+
+    /* calculator-box-right */
+    .calculator-box-right {
+        width: 100%;
+    }
+
+    .calculator-box-right form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .select-box-2 {
+        grid-column: span 1;
+    }
+
+    .calculator-btn {
+        width: 100%;
+        padding: .8rem 0;
+    }
+
 }
 
 /* min-width:577px and max-width:767px.......llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
@@ -506,6 +647,88 @@
     }
 
 
+    /* calculator */
+
+    .bmi-max-width {
+        padding-left: 0;
+    }
+
+    .bmi-main-title {
+        font-size: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    .calculator-container {
+        height: 110vh;
+        padding: 0 .8rem;
+        border-radius: 1rem;
+    }
+
+    .calculator-box {
+        padding: 2rem 0;
+    }
+
+    .bmi-max-width {
+        padding-left: 0;
+    }
+
+    .bmi-title {
+        font-size: 1.8rem;
+    }
+
+    .bmi-des {
+        width: 100%;
+        margin: 0;
+    }
+
+    .habits-des {
+        margin: 0;
+        margin-top: .5rem;
+    }
+
+    .calculator-box {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+
+    /* calculator-box-left */
+    .calculator-box-left {
+        width: 100%;
+    }
+
+    .calculator-box-left table {
+        margin-top: 1rem;
+    }
+
+    .calculator-box-left th {
+        font-size: .9rem;
+    }
+
+    .calculator-box-left th,
+    td {
+        padding: 10px;
+    }
+
+    /* calculator-box-right */
+    .calculator-box-right {
+        width: 100%;
+    }
+
+    .calculator-box-right form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .select-box-2 {
+        grid-column: span 1;
+    }
+
+    .calculator-btn {
+        width: 100%;
+        padding: .8rem 0;
+    }
+
+
 
 }
 
@@ -608,6 +831,63 @@
     .photo-grid-container {
         height: 55vh;
     }
+
+
+    /* calculator */
+    .calculator-container {
+        height: 83vh;
+        border-radius: 1rem;
+    }
+
+    .bmi-main-title {
+        font-size: 3rem;
+    }
+
+    .habits-des {
+        width: 100%;
+    }
+
+    .calculator-box {
+        padding: 3rem 1rem;
+        gap: 2rem;
+    }
+
+    /* calculator-box-left */
+    .calculator-box-left {
+        width: 50%;
+        margin-top: 6rem;
+    }
+
+    .calculator-box-left table {
+        margin-top: 1.5rem;
+    }
+
+    .calculator-box-left th,
+    td {
+        padding: 10px 5px;
+    }
+
+    /* calculator-box-right */
+    .calculator-box-right {
+        width: 50%;
+    }
+
+    .calculator-right-des {
+        margin-top: 1rem;
+    }
+
+    .calculator-box-right form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .select-box-2 {
+        grid-column: span 1;
+    }
+
+    .calculator-btn {
+        width: 100%;
+    }
+
 }
 
 /* min-width:992px and max-width:1200px */
