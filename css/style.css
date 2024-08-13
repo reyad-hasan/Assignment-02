@@ -431,6 +431,16 @@ nav .link:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: .3s;
+}
+
+.grid-photo-1:hover,
+.grid-photo-2:hover,
+.grid-photo-3:hover,
+.grid-photo-4:hover,
+.grid-photo-5:hover,
+.grid-photo-6:hover {
+    transform: scale(1.02);
 }
 
 .grid-photo-1 {
@@ -591,4 +601,98 @@ td {
     width: 100%;
     height: 280px;
     border-radius: 1rem;
+}
+
+/* footer section ............lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+footer {
+    background-color: var(--section-bg);
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+.footer-container {
+    display: flex;
+    gap: 8rem;
+}
+
+/* footer-left-box */
+.footer-left-box {
+    width: 60%;
+}
+
+.logo-footer {
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 120%;
+    font-style: italic;
+}
+
+.footer-des {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 150%;
+}
+
+/* footer-right-box */
+.footer-right-box {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.footer-right-box-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.footer-right-box-1 h3,
+.footer-right-box-2 h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-right-box-1 ul,
+.footer-right-box-2 ul {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.footer-right-box-1 ul li,
+.footer-right-box-2 ul li {
+    color: var(--description-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+
+.footer-right-box-1 ul li:hover {
+    color: var(--primary-color);
+
+}
+
+.footer-right-box-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.hr {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 3rem;
+}
+
+.footer-reserved {
+    margin-top: 3rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }
