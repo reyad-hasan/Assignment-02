@@ -241,6 +241,18 @@
         width: 100%;
     }
 
+    /* pricing section */
+
+    .pricing-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .card-1 {
+        height: 50vh;
+    }
+
+    /* our team section */
     .our-team-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
@@ -559,6 +571,22 @@
         padding: .6rem 0;
     }
 
+    /* pricing section */
+
+    .pricing-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .pricing-des {
+        padding: 0;
+    }
+
+    .card-1 {
+        height: 50vh;
+    }
+
+    /* our team section */
     .our-team-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -823,6 +851,23 @@
         padding: .8rem 0;
     }
 
+    /* pricing section */
+
+    .pricing-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+    }
+
+    .pricing-des {
+        padding: 0;
+    }
+
+    .card-1 {
+        height: 50vh;
+    }
+
+    /* our team section */
+
     .our-team-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1020,6 +1065,18 @@
         width: 100%;
     }
 
+    /* pricing section */
+
+    .pricing-card-container {
+        padding: 1rem;
+    }
+
+    .card-1 {
+        height: 55vh;
+    }
+
+    /* our team section */
+
     .our-team-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1097,6 +1154,11 @@
 
     .run-btn {
         padding: .8rem 2rem;
+    }
+
+    /* pricing section */
+    .card-1 {
+        height: 55vh;
     }
 
     footer {

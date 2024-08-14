@@ -574,6 +574,111 @@ td {
     width: 40%;
 }
 
+/* pricing section */
+.pricing-section {
+    /* background-color: var(--section-bg); */
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pricing-des {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 3rem;
+}
+
+.pricing-card-container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.pricing-title {
+    color: rgb(76, 243, 76);
+}
+
+.dot-box {
+    display: flex;
+    gap: .5rem;
+    justify-content: center;/
+}
+
+.dot-1 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(76, 243, 76);
+}
+
+.dot-2 {
+    width: 12px;
+    height: 12px;
+    background-color: var(--description-color);
+}
+
+.card-1 {
+    border: 2px solid white;
+    padding: 1.5rem;
+    text-align: center;
+    height: 45vh;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.card-1:hover {
+    transform: scale(1.1);
+}
+
+.card-1-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-des-box {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.card-box-title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.month-des {
+    margin-top: 2rem;
+}
+
+.card-des {
+    color: rgb(57, 173, 57);
+    font-weight: 700;
+}
+
+.card-des-2 {
+    color: var(--description-color);
+}
+
+.card-btn {
+    border: 2px solid rgb(76, 243, 76);
+    background-color: transparent;
+    padding: .7rem 3rem;
+    font-weight: 900;
+    color: rgb(76, 243, 76);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: rgb(52, 143, 52);
+    color: rgb(253, 253, 253);
+    border: 2px solid white;
+}
+
 /* our team section */
 .our-team-title-box {
     margin: 3rem 0;
