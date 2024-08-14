@@ -771,7 +771,8 @@ footer {
     letter-spacing: 1px;
 }
 
-.footer-right-box-1 ul li:hover {
+.footer-right-box-1 ul li:hover,
+.footer-right-box-2 ul li:hover {
     color: var(--primary-color);
 
 }
