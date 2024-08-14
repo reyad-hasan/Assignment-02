@@ -190,10 +190,16 @@
 
     .calculator-box {
         padding: 2rem 0;
+        gap: 0rem;
     }
 
     .bmi-max-width {
         padding-left: 0;
+    }
+
+    .bmi-title {
+        font-size: 1.2rem;
+        margin-top: 1rem;
     }
 
     .bmi-des {
@@ -203,6 +209,7 @@
     .calculator-box {
         flex-direction: column;
         gap: 0rem;
+        padding: 3rem 0;
     }
 
 
@@ -237,6 +244,11 @@
         grid-column: span 1;
     }
 
+    .calculator-right-des {
+        margin-top: 1rem;
+    }
+
+
     .calculator-btn {
         width: 100%;
     }
@@ -246,6 +258,10 @@
     .pricing-card-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 1rem;
+    }
+
+    .pricing-des {
+        padding: 0;
     }
 
     .card-1 {
@@ -481,19 +497,15 @@
         height: 90vh;
     }
 
-    .grid-photo-2 {
+    .grid-photo-2,
+    .grid-photo-4 {
         grid-column: span 1;
     }
 
     .grid-photo-3,
-    .grid-photo-5 {
+    .grid-photo-6 {
         grid-column: span 2;
     }
-
-    .grid-photo-6 {
-        display: none;
-    }
-
 
     /* calculator */
 
@@ -508,7 +520,7 @@
     }
 
     .calculator-container {
-        height: 110vh;
+        height: 112vh;
         padding: 0 .8rem;
         border-radius: 1rem;
     }
@@ -556,10 +568,15 @@
     /* calculator-box-right */
     .calculator-box-right {
         width: 100%;
+        margin-top: 2rem;
     }
 
     .calculator-box-right form {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .calculator-right-des {
+        margin-top: 1rem;
     }
 
     .select-box-2 {
@@ -576,6 +593,10 @@
     .pricing-card-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 1rem;
+    }
+
+    .pricing-title {
+        font-size: 1.7rem;
     }
 
     .pricing-des {
